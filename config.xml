@@ -4,10 +4,7 @@
     id          = "com.phonegap.example"
     versionCode = "10"
     version     = "1.0.0" >
-    <preference name="android-build-tool" value="gradle" />
-      <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
-      </gap:config-file>
+
 <!-- versionCode is optional and Android only -->
 
   <name>Tic tac toe</name>
@@ -19,7 +16,10 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       Victor Moreno
   </author>
-
+  <preference name="android-build-tool" value="gradle" />
+    <gap:config-file platform="android" parent="/manifest">
+       <application android:debuggable="true" />
+    </gap:config-file>
   <platform name="android">
     <allow-intent href="*.phonegap.com" />
     <allow-intent href="market:*"/>
