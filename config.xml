@@ -23,6 +23,6 @@
   <platform name="android">
     <allow-intent href="*.phonegap.com" />
     <allow-intent href="market:*"/>
-  <platform>
+  </platform>
 
 </widget>
